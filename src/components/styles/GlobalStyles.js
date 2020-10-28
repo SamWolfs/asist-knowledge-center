@@ -76,7 +76,7 @@ export const baseStyles = injectGlobal`
     border-radius: 1px;
     margin: 0 auto;
     margin-top: 4px;
-    background-color: #001934;
+    background-color: #f15e22;
   }
   .navBarToggle .iconBar:first-child {
     margin-top: 0px;
@@ -257,7 +257,7 @@ export const baseStyles = injectGlobal`
     padding: 0 !important;
   }
   .navBarDefault {
-    background-color: #001934;
+    background-color: #f15e22;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -320,7 +320,7 @@ export const baseStyles = injectGlobal`
     border: 0 !important;
     background-color: rgb(245, 247, 249); /* !important; */
   }
-  
+
   blockquote {
     color: rgb(116, 129, 141);
     margin: 0px 0px 24px;
@@ -338,7 +338,7 @@ export const baseStyles = injectGlobal`
   .socialWrapper li a {
     display: contents;
   }
-  .discordBtn, .twitterBtn {
+  .discordBtn, .facebookBtn {
     border-radius: 4px;
     border: solid 1px #d1d2d3;
     background-color: #f1f5f8;
@@ -352,8 +352,8 @@ export const baseStyles = injectGlobal`
     opacity: .8;
     cursor: pointer;
   }
-  .twitterBtn img {
-    width: 12px !important;
+  .facebookBtn i {
+    color: #a8abad;
   }
   .discordBtn img {
     width: 10px !important;
@@ -374,7 +374,7 @@ export const baseStyles = injectGlobal`
     font-family: 'Poppins';
     font-size: 18px;
     font-weight: 600;
-    color: #001934;
+    color: #f15e22;
     display: flex;
     align-items: center;
   }
@@ -384,7 +384,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sidebarTitle a {
-    color: #001934;
+    color: #f15e22;
   }
 
   .greenCircle {
@@ -450,7 +450,7 @@ export const baseStyles = injectGlobal`
   }
 
   .hideFrontLine .active > a {
-    background-color: #1ed3c6;
+    background-color: #f15e22;
     color: #fff !important;
   }
   .firstLevel ul li .collapser svg path {
@@ -470,7 +470,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sideBarUL .item > a {
-    color: #1ED3C6;
+    color: #f15e22;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -508,7 +508,7 @@ export const baseStyles = injectGlobal`
     border-color: rgb(230, 236, 241) !important;
     border-style: solid none solid solid;
     border-width: 1px 0px 1px 1px;
-    background-color: #1ed3c6 !important;
+    background-color: #f15e22 !important;
     color: #fff;
   }
 
@@ -734,13 +734,13 @@ export const baseStyles = injectGlobal`
 
   @media (max-width: 767px) {
     .formElement svg path {
-      fill: #001934;
+      fill: #f15e22;
     }
     .visibleMobileView {
       display: block !important;
     }
     .searchInput {
-      color: #001934;
+      color: #f15e22;
     }
     .socialWrapper {
       position: absolute;
