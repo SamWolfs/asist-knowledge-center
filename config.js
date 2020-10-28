@@ -33,10 +33,12 @@ const config = {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
       '/open-source',
+      '/tooling',
       '/web-development',
     ],
     collapsedNav: [
       '/open-source',
+      '/tooling',
       '/web-development', // add trailing slash if enabled above
     ],
     links: [{ text: 'Asist', link: 'http://asist.be' }],
