@@ -1,35 +1,28 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
+    siteUrl: 'http://asist-knowledge-center.netlify.app',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://hasura.io/learn/',
+    logo: 'http://asist.be/sites/all/themes/asist/images/logo.png',
+    logoLink: 'http://asist.be',
     title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+      "<a href='http://asist.be'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
+    githubUrl: 'https://github.com/SamWolfs/asist-knowledge-center',
     helpUrl: '',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
-		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
-		  </li>
-			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
+		    <a href="https://www.facebook.com/AsistBelgium/" target="_blank" rel="noopener">
+		      <div class="facebookBtn">
+		        <i class="fab fa-facebook-square"></i>
 		      </div>
 		    </a>
 		  </li>`,
     links: [{ text: '', link: '' }],
     search: {
-      enabled: false,
+      enabled: true,
       indexName: '',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
@@ -44,24 +37,24 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: 'Asist', link: 'http://asist.be' }],
     frontline: false,
     ignoreIndex: true,
-    title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+    title: ""
+      // "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
-    ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    title: 'Asist Knowledge Center',
+    description: 'Documentation by Asist Developers for everyone ',
+    ogImage: "http://www.asist.be/sites/default/files/favicon_0.ico",
+    docsLocation: 'https://github.com/SamWolfs/asist-knowledge-center/tree/main/content',
+    favicon: 'http://www.asist.be/sites/default/files/favicon_0.ico',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
+      name: 'Asist Knowledge Center',
+      short_name: 'AsistKnowledge',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
