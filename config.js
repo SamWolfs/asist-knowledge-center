@@ -7,9 +7,9 @@ const config = {
   },
   header: {
     logo: 'http://asist.be/sites/all/themes/asist/images/logo.png',
-    logoLink: 'http://asist.be',
+    logoLink: '/',
     title:
-      "<a href='http://asist.be'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
+      "<a href='/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
     githubUrl: 'https://github.com/SamWolfs/asist-knowledge-center',
     helpUrl: '',
     tweetText: '',
@@ -32,10 +32,10 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
-      '/codeblock',
+      '/web-development',
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      '/web-development', // add trailing slash if enabled above
     ],
     links: [{ text: 'Asist', link: 'http://asist.be' }],
     frontline: false,
