@@ -23,7 +23,7 @@ const config = {
     links: [{ text: '', link: '' }],
     search: {
       enabled: true,
-      indexName: '',
+      indexName: 'prod_ASIST_KNOWLEDGE',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
       algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
