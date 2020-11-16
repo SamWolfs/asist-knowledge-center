@@ -39,6 +39,7 @@ const plugins = [
       extensions: ['.mdx', '.md'],
     },
   },
+  `gatsby-plugin-netlify-cms`,
   {
     resolve: `gatsby-plugin-netlify-identity`,
     options: {
