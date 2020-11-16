@@ -11,6 +11,7 @@ export default class HTML extends React.Component {
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <script src="https://kit.fontawesome.com/363366cba7.js" crossOrigin="anonymous"></script>
+          <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
           {config.siteMetadata.ogImage ? (
             <meta property="og:image" content={config.siteMetadata.ogImage} />
           ) : null}
