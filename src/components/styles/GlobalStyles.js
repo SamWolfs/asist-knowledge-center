@@ -11,16 +11,16 @@ export const baseStyles = injectGlobal`
   }
   ::-webkit-input-placeholder {
     /* Edge */
-    color: #c2c2c2;
+    color: lightgray;
   }
 
   :-ms-input-placeholder {
     /* Internet Explorer */
-    color: #c2c2c2;
+    color: lightgray;
   }
 
   ::placeholder {
-    color: #c2c2c2;
+    color: lightgray;
   }
   html,
   body {
@@ -154,11 +154,11 @@ export const baseStyles = injectGlobal`
     border: none;
   }
   .formElement svg path {
-    fill: #2fd2c5;
+    fill: lightgray;
   }
   .searchInput {
     width: 100%;
-    background-color: rgba(28,211,198,.12) !important;
+    background-color: rgba(166,55,10,.25) !important;
     border-width: 0 !important;
     color: #C2C2C2;
     padding: 10px;
@@ -264,10 +264,10 @@ export const baseStyles = injectGlobal`
     border: 0;
     display: flex;
     align-items: center;
-    box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
-    -webkit-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
-    -moz-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.8);
-    -o-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
+    box-shadow: 0px 1px 5px 0px rgba(33, 33, 33, 0.4);
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(33, 33, 33, 0.4);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(33, 33, 33, 0.8);
+    -o-box-shadow: 0px 1px 5px 0px rgba(33, 33, 33, 0.4);
     z-index: 1;
     padding: 15px;
     position: relative;
@@ -470,7 +470,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sideBarUL .item > a {
-    color: #f15e22;
+    color: #fff;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -508,7 +508,7 @@ export const baseStyles = injectGlobal`
     border-color: rgb(230, 236, 241) !important;
     border-style: solid none solid solid;
     border-width: 1px 0px 1px 1px;
-    background-color: #f15e22 !important;
+    background-color: black !important;
     color: #fff;
   }
 
@@ -751,7 +751,6 @@ export const baseStyles = injectGlobal`
       margin-top: 15px;
       position: relative;
       padding-bottom: 20px;
-      border-top: 1px solid #fff;
     }
     .headerTitle {
       padding-right: 50px;
