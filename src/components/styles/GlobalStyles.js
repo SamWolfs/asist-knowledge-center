@@ -154,7 +154,7 @@ export const baseStyles = injectGlobal`
     border: none;
   }
   .formElement svg path {
-    fill: #2fd2c5;
+    fill: lightgray;
   }
   .searchInput {
     width: 100%;
@@ -470,7 +470,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sideBarUL .item > a {
-    color: #f15e22;
+    color: #fff;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -508,7 +508,7 @@ export const baseStyles = injectGlobal`
     border-color: rgb(230, 236, 241) !important;
     border-style: solid none solid solid;
     border-width: 1px 0px 1px 1px;
-    background-color: #f15e22 !important;
+    background-color: black !important;
     color: #fff;
   }
 
