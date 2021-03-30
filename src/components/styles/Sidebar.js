@@ -64,7 +64,7 @@ export const ListItem = styled(({ className, active, level, ...props }) => {
   list-style: none;
 
   a {
-    color: #5c6975;
+    color: white;
     text-decoration: none;
     font-weight: ${({ level }) => (level === 0 ? 700 : 400)};
     padding: 0.45rem 0 0.45rem ${props => 2 + (props.level || 0) * 1}rem;
@@ -72,13 +72,13 @@ export const ListItem = styled(({ className, active, level, ...props }) => {
     position: relative;
 
     &:hover {
-      color: #f58e64 !important;
+      color: #dc6737 !important;
     }
 
     ${props =>
       props.active &&
       `
-      color: #f58e64;
+      color: #dc6737;
       border-color: rgb(230,236,241) !important;
       border-style: solid none solid solid;
       border-width: 1px 0px 1px 1px;

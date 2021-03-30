@@ -46,7 +46,7 @@ const StyledBgDiv = styled('div')`
   background-color: #f8f8f8;
   position: relative;
   display: none;
-  background: ${props => (props.isDarkThemeActive ? '#001932' : undefined)};
+  background: ${props => (props.isDarkThemeActive ? '#f15e22' : undefined)};
 
   @media (max-width: 767px) {
     display: block;
@@ -122,7 +122,6 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
             <div id="navbar" className={'topnav'}>
               <div className={'visibleMobile'}>
                 <Sidebar location={location} />
-                <hr />
               </div>
               <ul className={'navBarUL navBarNav navBarULRight'}>
                 {headerLinks.map((link, key) => {
